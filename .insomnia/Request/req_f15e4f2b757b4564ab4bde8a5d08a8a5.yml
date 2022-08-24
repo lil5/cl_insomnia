@@ -1,14 +1,14 @@
 _id: req_f15e4f2b757b4564ab4bde8a5d08a8a5
 type: Request
 parentId: fld_fa782aca5b1b44068f2651d11a23a89e
-modified: 1661376434744
+modified: 1661377046351
 created: 1661375776698
 url: "{{base}}/chain/add-user"
 name: add user
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/json
   text: |-
     {
         "chain_uid": "{{chainUID}}",
@@ -16,10 +16,7 @@ body:
         "is_chain_admin": true
     }
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_51a441427931441e812d3d7e25645866
+headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"

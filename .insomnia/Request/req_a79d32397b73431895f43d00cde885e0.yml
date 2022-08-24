@@ -1,7 +1,7 @@
 _id: req_a79d32397b73431895f43d00cde885e0
 type: Request
 parentId: fld_3a6784bac6634fc88aea9fdd8b8d05c9
-modified: 1661376334878
+modified: 1661376922954
 created: 1661375776736
 url: "{{base}}/user/all-chain"
 name: get all by chain
