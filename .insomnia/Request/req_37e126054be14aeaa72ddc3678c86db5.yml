@@ -1,0 +1,40 @@
+_id: req_37e126054be14aeaa72ddc3678c86db5
+type: Request
+parentId: fld_fa782aca5b1b44068f2651d11a23a89e
+modified: 1661376405792
+created: 1661375776710
+url: "{{base}}/chain"
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "uid": "{{chainUID}}",
+        "name": "",
+        "description": "",
+        "address": "",
+        "latitude": 8.9,
+        "longitude": 3.8,
+        "radius": 0.1,
+        "sizes": [
+            ""
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_59a41683349e496f9e9d645ae40467ab
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1661375776710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

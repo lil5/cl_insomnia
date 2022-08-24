@@ -1,0 +1,23 @@
+_id: req_b6156c26f1cf447e8b2c9d62a0fa79de
+type: Request
+parentId: fld_3a6784bac6634fc88aea9fdd8b8d05c9
+modified: 1661376336984
+created: 1661375776731
+url: "{{base}}/user?chain_uid=&user_uid="
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1661375776731
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

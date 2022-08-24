@@ -1,17 +1,17 @@
-_id: req_1862b9ff4e7d40a2a537134b22eeddc8
+_id: req_6a58ca0da8ef460c8a49e7b9fd549986
 type: Request
-parentId: wrk_4114a045f2274c52892c4767242df775
-modified: 1661374636464
-created: 1661374636464
-url: ""
-name: New Request
+parentId: fld_f39f3e763cff40a09a30ad5111bba566
+modified: 1661375776725
+created: 1661375776725
+url: "{{base}}/login/validate?apiKey={{token}}"
+name: login email step2
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1661374636464
+metaSortKey: -1661375776725
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

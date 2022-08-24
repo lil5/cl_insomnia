@@ -1,0 +1,34 @@
+_id: req_15bd5586d1a943bcb1df1eea18a14d27
+type: Request
+parentId: fld_fa782aca5b1b44068f2651d11a23a89e
+modified: 1661376427617
+created: 1661375776700
+url: "{{base}}/chain/all"
+name: get all filtered
+description: ""
+method: GET
+body:
+  mimeType: ""
+  text: |-
+    {
+        "filter": {
+            "sizes": ["1", "2"],
+            "genders": ["3"]
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c6e750e95c0d494ea91ccd2b06cdaabd
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1661375776700
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_79e5ded18b084d949bdf501da26a4403
+type: Request
+parentId: fld_fa782aca5b1b44068f2651d11a23a89e
+modified: 1661376420502
+created: 1661375776702
+url: "{{base}}/chain/all"
+name: get all
+description: ""
+method: GET
+body:
+  mimeType: ""
+  text: "{}"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3e53b047c8b849bbbd6a14cd491c2eb0
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1661375776702
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_fa3720fa548d4e5c8accc61f308f283a
+type: Request
+parentId: fld_f39f3e763cff40a09a30ad5111bba566
+modified: 1661376364447
+created: 1661375776720
+url: "{{base}}/logout"
+name: logout
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1661375776720
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_23a7f67f7a554a68a3513db79e8725cb
+type: Request
+parentId: fld_245941a04ae74bc08f67d9eb8273cb3c
+modified: 1661376324153
+created: 1661375776745
+url: "{{base}}/contact/email"
+name: send email
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name":"John Doe",
+        "email":"test@example.com",
+        "message": "This is a test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6c35939b08eb4cc884e396976ec2996d
+authentication: {}
+metaSortKey: -1661375776745
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
