@@ -1,14 +1,18 @@
 _id: req_6a58ca0da8ef460c8a49e7b9fd549986
 type: Request
 parentId: fld_f39f3e763cff40a09a30ad5111bba566
-modified: 1661375776725
+modified: 1661412943589
 created: 1661375776725
-url: "{{base}}/login/validate?apiKey={{token}}"
+url: "{{base}}/login/validate"
 name: login email step2
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_be963d075d954b4cb8c162c2f264bd0f
+    name: apiKey
+    value: "{{ _.token }}"
+    description: ""
 headers: []
 authentication: {}
 metaSortKey: -1661375776725

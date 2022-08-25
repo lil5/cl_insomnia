@@ -1,23 +1,20 @@
 _id: req_146cc4934b7644feac04232fc92cbf21
 type: Request
 parentId: fld_3a6784bac6634fc88aea9fdd8b8d05c9
-modified: 1661376921089
+modified: 1661412929242
 created: 1661375776732
 url: "{{base}}/user"
 name: update
 description: ""
 method: PATCH
 body:
-  mimeType: ""
+  mimeType: application/json
   text: |-
     {
         
     }
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_75d7983e199e41068e853d69a7dc60bb
+headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"

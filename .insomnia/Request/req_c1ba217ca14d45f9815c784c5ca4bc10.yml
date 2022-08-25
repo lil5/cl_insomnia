@@ -1,14 +1,22 @@
 _id: req_c1ba217ca14d45f9815c784c5ca4bc10
 type: Request
 parentId: fld_3a6784bac6634fc88aea9fdd8b8d05c9
-modified: 1661376923958
+modified: 1661412913376
 created: 1661375776738
-url: "{{base}}/user?chain_uid={{chainUID}}&user_uid={{userUID}}"
+url: "{{base}}/user"
 name: get by uid
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_01be4cc5c9ec46929a2d8ccded6e2706
+    name: chain_uid
+    value: "{{ _.chainUID }}"
+    description: ""
+  - id: pair_e62738147499483089660d03185db1a9
+    name: user_uid
+    value: "{{ _.userUID }}"
+    description: ""
 headers: []
 authentication:
   type: bearer

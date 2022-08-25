@@ -1,14 +1,14 @@
 _id: req_f31e84c8c04d4e3aa82ff57d3518dad5
 type: Request
 parentId: fld_f39f3e763cff40a09a30ad5111bba566
-modified: 1661377232813
+modified: 1661412955156
 created: 1661375776717
 url: "{{base}}/register/chain-admin"
 name: register chain admin
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/json
   text: |-
     {
         "address":"Lorem ipsum 10",
@@ -30,10 +30,7 @@ body:
         }
     }
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_664e785fd48c4f4cb34be5418fc26455
+headers: []
 authentication: {}
 metaSortKey: -1661375776717
 isPrivate: false

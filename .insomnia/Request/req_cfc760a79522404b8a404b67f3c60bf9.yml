@@ -1,24 +1,21 @@
 _id: req_cfc760a79522404b8a404b67f3c60bf9
 type: Request
 parentId: fld_245941a04ae74bc08f67d9eb8273cb3c
-modified: 1661376327211
+modified: 1661412910051
 created: 1661375776746
 url: "{{base}}/contact/newsletter"
 name: set newsletter status
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/json
   text: |-
     {
         "email": "test@example.com",
         "subscribe": true
     }
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_847927b3e9394ffabb4f2a27e66338f7
+headers: []
 authentication: {}
 metaSortKey: -1661375776746
 isPrivate: false
