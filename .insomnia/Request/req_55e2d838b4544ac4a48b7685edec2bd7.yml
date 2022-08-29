@@ -1,0 +1,32 @@
+_id: req_55e2d838b4544ac4a48b7685edec2bd7
+type: Request
+parentId: fld_6410fa86d1194d37876cc1f474052c00
+modified: 1661800881366
+created: 1661766287553
+url: "{{base}}/payment/initiate"
+name: initiate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"amount": 10,
+    	"email": "{{ _.userEmail }}",
+    	"is_recurring": false,
+    	"price_id": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9715991f5cac492eb7b6067d99bf5156
+authentication: {}
+metaSortKey: -1661766287553
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
